@@ -39,6 +39,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "✅ Bạn đã đăng ký nhận nhắc chấm công.\n⏰ Bot nhắc từ Thứ 2 đến Thứ 7."
     )
 
+async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE): remove_user(update.effective_chat.id) await update.message.reply_text("❌ Bạn đã hủy đăng ký nhận thông báo.")
+
 async def broadcast(application, message):
     for user_id in get_users():
         try:
