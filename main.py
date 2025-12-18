@@ -69,7 +69,8 @@ async def check_time(application):
         "07:55": "⏰ Sắp đến giờ làm việc rồi bạn ơi! Nhớ chấm công đầy đủ trước 8:00 nhé!",
         "12:00": "🍱 Đến giờ nghỉ trưa rồi bạn ơi!",
         "13:00": "⏰ Tạm biệt nghỉ trưa! Quay lại làm việc thôi!",
-        "17:00": "📤 Đến giờ tan làm rồi bạn ơi! Nhớ chấm công trước khi ra về nhé!"
+        "17:00": "📤 Đến giờ tan làm rồi bạn ơi! Nhớ chấm công trước khi ra về nhé!",
+        "09:14": "test hom nay"
     }
 
     if time_now in messages:
